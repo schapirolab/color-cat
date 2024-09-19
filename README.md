@@ -1,4 +1,4 @@
-# Resources for Tandoc et al. - Object feature memory is distorted by category structure
+# Stimuli, data, and analysis code for Tandoc et al. - Object feature memory is distorted by category structure
 
 This repository includes the **stimuli, data, and code** used in the manuscript. For a comprehensive overview of the stimuli, data collection, and analysis methods, please refer to the Methods and Results sections of the manuscript.
 
