@@ -4,8 +4,11 @@ Description of the stimuli, data, and code. Please refer to the manuscript's Met
 
 If you have any questions, feel free to contact Marlie Tandoc (tandoc@sas.upenn.edu).
 
-## File: data/data_main.csv
-Description: Contains trial-level data from the main phase (interleaved part and color trials) for both experiments. Each row is a trial. This dataframe is read in by analyze.R to recreate the manuscript results and statistics.
+## File: ```analyze.R```
+Description: R script to analyze the data. Contains code to run statistical tests and models in the manuscript.
+
+## File: ```data/data_main.csv```
+Description: Contains trial-level data from the main phase (interleaved part and color trials) for both experiments. Each row is a trial. This dataframe is read in by ```analyze.R``` to recreate the manuscript results and statistics.
 
 Columns (19):
 - **participant**: Participant identifier
@@ -27,12 +30,16 @@ Columns (19):
 - **color_response_correct**: Whether the participant chose the correct/target color (1 = correct, 0 = incorrect) (relevant only for color trial_type)
 - **color_response_type**: The color option the participant chose on that trial (target, attract, repel, orthogonal) (relevant only for color trial_type)
 
-## File: data/data_test.csv
-Description: Contains trial-level data from the test phase (post-learning) in Experiment 2. Each row is a trial. This dataframe is read in by analyze.R to recreate the manuscript results and statistics.
+## File: ```data/data_test.csv```
+Description: Contains trial-level data from the test phase (post-learning) in Experiment 2. Each row is a trial. This dataframe is read in by ```analyze.R``` to recreate the manuscript results and statistics.
 
 Data columns are identical to **data/data_main.csv** except it does not contain the column **part_attempts_total** and **part_first_attempt_corr** because in the test phase participant's had only once attempt at each part trial. There is also one new column **part_response_correct** which is described below
 
 Columns: (18) 
 - **part_response_correct**: Whether the participant chose the correct part (relevant only for part trial_type)
+
+
+## Folder: ```stimuli```
+Description: Contains images with transparent backgrounds (PNG) that were used to create the satellite stimuli. Each image is a different satellite part. t = tail, h = head, b = back, l = leg.
 
 
