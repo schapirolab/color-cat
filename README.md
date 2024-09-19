@@ -1,8 +1,8 @@
 # Stimuli, data, and code for Tandoc et al. - Object feature memory is distorted by category structure
 
-Description of the stimuli, data, and code. Please refer to the manuscript's Methods and Results sections for a more detailed description of the stimuli, data, and analysis. 
+This repository includes the stimuli, data, and code used in the manuscript. For a comprehensive overview of the stimuli, data collection, and analysis methods, please refer to the Methods and Results sections of the manuscript.
 
-If you have any questions, feel free to contact Marlie Tandoc (tandoc@sas.upenn.edu).
+If you have any additional questions, please contact Marlie (tandoc@sas.upenn.edu).
 
 ## File: ```analyze.R```
 Description: R script to analyze the data. Contains code to run statistical tests and models in the manuscript.
