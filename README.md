@@ -1,6 +1,6 @@
-# Stimuli, data, and code for Tandoc et al. - Object feature memory is distorted by category structure
+# Resources for Tandoc et al. - Object feature memory is distorted by category structure
 
-This repository includes the stimuli, data, and code used in the manuscript. For a comprehensive overview of the stimuli, data collection, and analysis methods, please refer to the Methods and Results sections of the manuscript.
+This repository includes the **stimuli, data, and code** used in the manuscript. For a comprehensive overview of the stimuli, data collection, and analysis methods, please refer to the Methods and Results sections of the manuscript.
 
 If you have any additional questions, please contact Marlie (tandoc@sas.upenn.edu).
 
@@ -39,7 +39,7 @@ Columns: (18)
 - **part_response_correct**: Whether the participant chose the correct part (relevant only for part trial_type)
 
 
-## Folder: ```stimuli```
-Description: Contains images with transparent backgrounds (PNG) that were used to create the satellite stimuli. Each image is a different satellite part. t = tail, h = head, b = back, l = leg.
+## Folder: ```stimuli/```
+Description: Contains images with transparent backgrounds (PNG) used to create the satellite stimuli. Each image is a different satellite part. t = tail, h = head, b = back, l = leg. 1-6 = part identifier. Satellite base can be used in conjunction with the parts to give the satellite a body.
 
 
